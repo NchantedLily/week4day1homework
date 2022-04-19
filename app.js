@@ -19,8 +19,6 @@ while (i <= 10 ) {
 
 
 
-
-
 //#3
 
 const myArray = [];
@@ -38,4 +36,15 @@ const myArray = [];
  for (var i = 15  ; i > 0; i-= 2) {
   myArray.push(i);
 }
+
+//net ninja video codes
+var links = document.getElementsByTagName("a");
+ 
+  for (i = 0; i <= links.length; i++) {
+
+     console.log("this is link number ");
+
+ }
+ document.write(" all links now looped");
+
 
